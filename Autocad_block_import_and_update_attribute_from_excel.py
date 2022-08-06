@@ -83,8 +83,7 @@ for entity in doc1.PaperSpace:
                 Cval = C[blockcount]
                 Dval = D[blockcount]
 
-                # update attributes
-                
+                # update attributes               
                 if attrib.TagString == 'AA':
                     attrib.TextString = str(AA[0])
                 if attrib.TagString == 'A':
