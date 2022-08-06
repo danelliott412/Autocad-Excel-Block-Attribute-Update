@@ -36,6 +36,7 @@ for rn in range(15, 66):
         break
     else:
         cellcount += 1
+        # Add values from cells to arrays
         AA.append(ws['V' + rn].value)
         A.append(ws.range('W' + rn).value)
         B.append(ws.range('X' + rn).value)
