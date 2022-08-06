@@ -1,5 +1,5 @@
 ﻿# This program was written by Dan Elliott to import blocks with attributes calculated in Excel into AutoCAD.
-# The first Block entered needs to be set up or pulled from a block specific .dwg file then it can referenced in your
+# The first Block entered needs to be set up or pulled from a block specific .dwg file then it can be referenced in your
 # current AutoCAD file
 from pyautocad import Autocad, APoint       # acad2
 # from openpyxl import load_workbook
