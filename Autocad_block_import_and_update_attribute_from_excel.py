@@ -10,7 +10,6 @@ import re
 import time
 import xlwings as xw
 
-
 app = xw.apps.active  # set to read active Excel workbook as this code is called from workbook macro
 ws = xw.sheets.active
 
