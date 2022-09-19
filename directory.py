@@ -5,8 +5,8 @@ import os
 # setting up app layout and color scheme
 root = tk.Tk()
 root.geometry("400x400")
-root.title("NMBS Pittsburgh Directory Application")
-root.iconbitmap("C:\\Users\\dan.elliott\\Desktop\\Python\\NMBS_LOGO.ico")
+root.title("Company Directory Application")
+root.iconbitmap("C:\\Path\\To\\File\LOGO.ico")
 
 canvas = tk.Canvas(root, bg="#008B8B")  # dark cyan
 canvas.place(relwidth=1, relheight=1)
