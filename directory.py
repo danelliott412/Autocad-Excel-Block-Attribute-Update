@@ -27,11 +27,11 @@ projnum.place(width=100, height=24, x=200, y=60)
 def open_file(fpath):
     projtxt = projnum.get()
     if len(fpath) > 0:
-        filename = filedialog.askopenfilenames(initialdir = f"P:\\{projtxt}\\{projtxt}{fpath}")
+        filename = filedialog.askopenfilenames(initialdir = f"C:\\{projtxt}\\{projtxt}{fpath}")
         for file in filename:
             os.startfile(file)
     else:
-        filename = filedialog.askopenfilenames(initialdir = f"P:\\{projtxt}")
+        filename = filedialog.askopenfilenames(initialdir = f"C:\\{projtxt}")
         for file in filename:
             os.startfile(file)
     return
@@ -39,7 +39,7 @@ def open_file(fpath):
 
 def open_checkfile(fpath):
     projtxt = projnum.get()
-    filename = filedialog.askopenfilenames(initialdir = f"P:\\{projtxt}\\{projtxt}_5_CHECKER\\{projtxt}{fpath}")
+    filename = filedialog.askopenfilenames(initialdir = f"C:\\{projtxt}\\{projtxt}_5_CHECKER\\{projtxt}{fpath}")
     for file in filename:
         os.startfile(file)
     return
@@ -47,7 +47,7 @@ def open_checkfile(fpath):
 
 def open_dwgfile(fpath):
     projtxt = projnum.get()
-    filename = filedialog.askopenfilenames(initialdir = f"P:\\{projtxt}\\{fpath}")
+    filename = filedialog.askopenfilenames(initialdir = f"C:\\{projtxt}\\{fpath}")
     for file in filename:
         os.startfile(file)
     return
